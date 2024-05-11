@@ -1,6 +1,6 @@
 # Chatbot com Google Gemini Pro e Tkinter
 
-Este projeto cria um chatbot simples utilizando o modelo de linguagem **Gemini Pro do Google** e a biblioteca gráfica **Tkinter** para a interface.
+Este projeto é um simples chatbot feito em **Python** utilizando o modelo de linguagem **Gemini Pro do Google** e a biblioteca gráfica **Tkinter** para a interface.
 
 ## Funcionalidades
 
