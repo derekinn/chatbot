@@ -2,7 +2,7 @@ import google.generativeai as genai
 import tkinter as tk
 from tkinter import scrolledtext
 
-GOOGLE_API_KEY = "AIzaSyBw8yTii6UGtM9iQ15N1jCRsn79c7kDICw"  # Substitua pela sua API KEY
+GOOGLE_API_KEY = ">Coloque aqui sua Chave de API<" 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 generation_config = {
@@ -39,9 +39,8 @@ def enviar_mensagem():
         caixa_conversa.see(tk.END)
 
 janela = tk.Tk()
-janela.title("Chatbot com Gemini Pro")
-janela.config(bg="#202124")  # Fundo escuro
-
+janela.title("Chatbot com Gemini")
+janela.config(bg="#202124") 
 caixa_conversa = scrolledtext.ScrolledText(janela, state="disabled", bg="#202124", fg="white", font=("Helvetica", 12), wrap=tk.WORD)
 caixa_conversa.tag_configure("usuario", foreground="#8AB4F8")
 caixa_conversa.tag_configure("bot", foreground="#F1F3F4")
