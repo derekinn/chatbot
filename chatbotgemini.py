@@ -2,7 +2,7 @@ import google.generativeai as genai
 import tkinter as tk
 from tkinter import scrolledtext
 
-GOOGLE_API_KEY = ">Coloque aqui sua Chave de API<" 
+GOOGLE_API_KEY = "Coloque aqui sua Chave de API" 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 generation_config = {
