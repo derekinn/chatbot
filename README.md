@@ -1,6 +1,3 @@
-Claro, aqui está o seu README formatado:
-
-```markdown
 # Chatbot com Google Gemini Pro e Tkinter
 
 Este projeto cria um chatbot simples utilizando o modelo de linguagem **Gemini Pro do Google** e a biblioteca gráfica **Tkinter** para a interface.
